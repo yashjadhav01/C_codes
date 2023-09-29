@@ -2,10 +2,11 @@
 #include<string.h>
 
 int main(){
-char str[50]="hello my name is yash";
+char str[50]="my name is yash";
 char *sub;
-sub=strstr(str,"h");
+sub=strstr(str,"n");
 printf("%s",sub);
+
 
     return 0;
 }
